@@ -1,0 +1,71 @@
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+
+@media (max-width: 1399px) {}
+
+@media (max-width: 1199px) {
+
+    /* ====================== FETURED-SRVICE =================== */
+    .featured_card .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .featured_card i {
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* ======================== FEATURE ======================= */
+    .features .col-lg-5 img {
+        margin-bottom: 10px;
+    }
+
+    /* ============================ PRICING =========================== */
+    .pricing .col-lg-4 {
+        margin: 15px 0px !important;
+    }
+    
+
+    /* ========================= ASK-QUETIONS ========================== */
+    .ask-qeustions-header span{
+        display: none;
+    }
+
+    /* ========================== FOOTER =========================== */
+    footer .part{
+        width: 50%;
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* ================== OUR-SERVISES ============== */
+    .service .section-header h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* ================== OUR-SERVISES ============== */
+    .service .section-header span {
+        font-size: 45px !important;
+    }
+
+    /* ========================== FOOTER =========================== */
+    footer .part{
+        width: 100%;
+        margin: 20px 0px;
+    }
+}
