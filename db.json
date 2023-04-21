@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "name": "Hardik Chauhan",
+      "email": "hardikchauhan@gmail.com",
+      "password": "1201202120",
+      "id": 2
+    },
+    {
+      "name": "Hardik Chauhan",
+      "email": "hardikchauhan@gmail.com",
+      "password": "1201202120",
+      "id": 3
+    },
+    {
+      "name": "Hardik Chauhan",
+      "email": "hardikchauhan@gmail.com",
+      "password": "1201202120",
+      "id": 4
+    },
+    {
+      "name": "Rushabh sutariya",
+      "email": "sutard@sfkwefk.com",
+      "password": "45454545",
+      "id": 5
+    },
+    {
+      "name": "Hardik Chauhan",
+      "email": "hardikchauhan@gmail.com",
+      "password": "8765",
+      "id": 6
+    },
+    {
+      "name": "Hardik Chauhan",
+      "email": "hardikchauhan0708@gmail.com",
+      "password": "76543456",
+      "id": 7
+    },
+    {
+      "name": "milan",
+      "email": "milan0708@gmail.com",
+      "password": "3456789",
+      "id": 8
+    }
+  ]
+}

@@ -1,7 +1,20 @@
-import React from 'react'
+import axios from 'axios'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+
+    useEffect(() => {
+
+    },[])
+
+    const getUserData = async () => {
+        await axios({
+            method : 'GET',
+            url : `${process.env.REACT_APP_BASE_URL}/users`
+        })
+    }
+    
   return (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light header py-1">
@@ -28,6 +41,9 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                     <Link to={"/contact"} className="nav-link text-light px-3 " tabIndex={-1} aria-disabled="true">Contact</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to={"/register"} className="nav-link text-light px-3 " tabIndex={-1} aria-disabled="true">Register</Link>
                 </li>
                 </ul>
                 <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login-modal">Sign in</button>
